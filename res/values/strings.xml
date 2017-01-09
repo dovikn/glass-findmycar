@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Find My Car for Glass</string>
+    <string name="pin_my_car">Remember where I am</string>
+    <string name="find_my_car_logo_description">This is the Find My Car logo.</string>
+	
+    <!--  Image descriptions -->
+	<string name="pin_image_description">A map that pins the location of the car.</string>
+    <string name="logo_image_description">Find My Car for Glass logo</string>
+    
+    <!--UI Messages -->
+    <string name="no_connectivity">No Network Connectivity.</string>
+    <string name="no_connectivity_footnote">Tap to change your WiFi settings.</string>
+    <string name="locatation_unavailable">Location is unavailable.</string>
+    <string name="locatation_unavailable_footnote">Please try again later.</string>
+    <string name="cancel_me">       Canceling&#8230;</string>
+    <string name="parking_location">Parking location</string>
+    
+	<!-- Menu Options -->
+	<string name="option_getdirections">Get directions</string>	
+	<string name="option_dismiss">Dismiss</string>
+	<string name="option_overidelocation">Refresh</string>
+	
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/liveCardMapImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/pin_image_description"/>
+   
+    <ImageView
+        android:id="@+id/liveCardBottomRightLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="34px"
+        android:layout_marginRight="40px"
+        android:contentDescription="@string/logo_image_description"
+        android:src="@drawable/findmycar_30x30"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/liveCardParkingLocationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="90px"
+        android:layout_marginLeft="40px"
+        android:text="@string/parking_location"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/liveCardParkingLocationDetailsTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="50px"
+        android:layout_marginLeft="40px"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+</FrameLayout>
