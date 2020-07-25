@@ -190,7 +190,7 @@ class ContainerV1beta1(base_api.BaseApiClient):
           config, request, global_params=global_params)
 
     def Delete(self, request, global_params=None):
-      """Tear down the complete cluster, api master and worker nodes.
+      """Tear down the complete cluster, api main and worker nodes.
 
       Args:
         request: (ContainerProjectsZonesClustersDeleteRequest) input message
