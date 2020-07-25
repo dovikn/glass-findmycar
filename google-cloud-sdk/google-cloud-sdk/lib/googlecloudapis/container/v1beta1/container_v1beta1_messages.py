@@ -24,7 +24,7 @@ class Cluster(messages.Message):
     creationTimestamp: A string attribute.
     description: A string attribute.
     endpoint: A string attribute.
-    masterAuth: A MasterAuth attribute.
+    mainAuth: A MainAuth attribute.
     name: A string attribute.
     nodeConfig: A NodeConfig attribute.
     nodeRoutingPrefixSize: A integer attribute.
@@ -54,7 +54,7 @@ class Cluster(messages.Message):
   creationTimestamp = messages.StringField(3)
   description = messages.StringField(4)
   endpoint = messages.StringField(5)
-  masterAuth = messages.MessageField('MasterAuth', 6)
+  mainAuth = messages.MessageField('MainAuth', 6)
   name = messages.StringField(7)
   nodeConfig = messages.MessageField('NodeConfig', 8)
   nodeRoutingPrefixSize = messages.IntegerField(9, variant=messages.Variant.INT32)
@@ -216,8 +216,8 @@ class ListOperationsResponse(messages.Message):
   operations = messages.MessageField('Operation', 1, repeated=True)
 
 
-class MasterAuth(messages.Message):
-  """A MasterAuth object.
+class MainAuth(messages.Message):
+  """A MainAuth object.
 
   Fields:
     password: A string attribute.
